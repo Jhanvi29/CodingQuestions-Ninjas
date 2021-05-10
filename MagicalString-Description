@@ -1,0 +1,7 @@
+1. Take a stack of char ‘P’ in which we will store our magical string.
+2. Iterate through the whole string ‘S’ (say iterator be ‘i’):
+  (i) If ‘P’ is not empty and abs(‘S[i]’ - ’P’.top())  is equal to 32 then pop the last element from the stack ‘P’.
+  (ii) Else push S[i] to the Stack ‘P’.
+3. Take a string ‘ANS’ to store the result.
+4. Now using a while loop push every element of the stack ‘P’ to ‘ANS’ and pop the current element from the stack.
+5. Return ‘ANS’
