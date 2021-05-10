@@ -22,7 +22,7 @@ string magicalString(string &s){
                            short_string;
             st.pop();
         }
-        return (short_string);
-    
-    
+        return (short_string);   
 }
+
+//Write main function accordingly
